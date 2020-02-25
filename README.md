@@ -8,7 +8,7 @@ La lista de TF fue obtenida de "Plant Transcription Factor Database" (planttfdb.
 
 ## CORTO
 
-corto (Correlation Tool) es un paquete de R par generar redes de regulación genética basadas en correlaciones con DPI. doi: https://doi.org/10.1101/2020.02.10.942623
+corto (Correlation Tool) es un paquete de R par generar redes de regulación genética basadas en correlaciones con DPI.
 
 Los primero TFs mejor ranqueados de corto fueron:
 
@@ -85,3 +85,42 @@ Other names: ATEIL1, EIL1, ETHYLENE-INSENSITIVE3-LIKE 1
 >ethylene-insensitive3-like1 (EIL1) The mRNA is cell-to-cell mobile.
 
 ![Drougth Stress AT2G27050.1](figures/AT2G27050.1.png)
+
+## MARINa
+
+El acercamiento con MARINa (Lefebvre 2010, doi: 10.1038/msb.2010.31) produjo estos resultados.
+
+Los resultados se despliegan a continuación:
+
+|             |    Regulon  | Size | NES  | p.value |  FDR  |  
+| ----------- | ----------- | ---- | ---- | ------- | ----- |  
+| AT1G30330.2 | AT1G30330.2 |  148 | 2.63 | 0.00854 | 0.709 |  
+| AT2G17770.2 | AT2G17770.2 |   96 | 2.41 | 0.01600 | 0.709 |  
+| AT2G47070.1 | AT2G47070.1 |   26 | 2.39 | 0.01670 | 0.709 |  
+| AT3G10000.1 | AT3G10000.1 |   25 | 2.10 | 0.03540 | 0.936 |  
+| AT2G02070.1 | AT2G02070.1 |   33 | 1.91 | 0.05570 | 0.936 |  
+| AT2G30590.1 | AT2G30590.1 |   56 | 1.90 | 0.05710 | 0.936 |  
+| AT1G28520.1 | AT1G28520.1 |  159 | 1.90 | 0.05710 | 0.936 |  
+| AT1G27360.1 | AT1G27360.1 |   37 | 1.87 | 0.06190 | 0.936 |  
+| AT1G19790.1 | AT1G19790.1 |  231 | 1.85 | 0.06410 | 0.936 |  
+| AT1G71260.1 | AT1G71260.1 |  111 |-2.85 | 0.00432 | 0.709 |  
+
+
+Sin embargo hay que notar que solo cuatro reguladores tiene una _p_ significativa. 
+El sitio [arabidopsis.org](https://www.arabidopsis.org/servlets/TairObject?type=locus&name=At1g71260) describe los significativos como así:
+
+**AT1G71260.1**
+Other names: ATWHY2, WHIRLY 2, WHY2
+>Encodes WHY2, a homolog of the potato p24 protein. It shares the conserved KGKAAL domain, a putative DNA-binding domain, with potato p24 and is localized to mitochondria and not the nucleus. WHY2 is a member of the Whirly family proteins present mainly in the plant kingdom performing various activities related to DNA metabolism. Crystal structure of Solanum tuberosum WHY2, a close homolog of Arabidopsis WHY2, reveal that Whirly proteins bind to single strand DNA to promote accurate repair of DNA double-strand breaks over an error-prone repair pathway.
+
+**AT1G30330.2**
+Other names: ARF6, AUXIN RESPONSE FACTOR 6
+>Encodes a member of the auxin response factor family. Mediates auxin response via expression of auxin regulated genes. Acts redundantly with ARF8 to control stamen elongation and flower maturation. Expression of ARF6 is controlled by miR167.
+
+**AT2G17770.2**
+Other names: ATBZIP27, BASIC REGION/LEUCINE ZIPPER MOTIF 27, BZIP27, FD PARALOG, FDP
+>Encodes a paralog of bZIP transcription factor FD. This protein interacts with FD and FT.
+
+**AT2G47070.1**
+Other names: SPL1, SQUAMOSA PROMOTER BINDING PROTEIN-LIKE 1
+>member of SPL gene family, encodes DNA binding proteins and putative transcription factors. All have the SBP-box, which encodes the SBP-domain, required for and sufficient for interaction with DNA.
