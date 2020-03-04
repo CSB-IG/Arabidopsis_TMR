@@ -25,16 +25,18 @@ Los primero TFs mejor ranqueados de corto fueron:
 | AT3G19360.1 | −3.92 | 8.98e−05 |
 | AT2G27050.1 | 3.76  | 0.000169 |
 
-### Información de los RTMs
+### Información de los TMRs
 
 Una búsqueda rápida en arabidopsis.org de estos genes se encontró esta descripción. Las imágenes corresponden al Arabidopsis eFP Browser, Abiotic Stress II. 
 
-El cuadro corresponde al análisis de sobrerepresentación del regulón de cada TMR (todos sus blancos) usando:
+La tabla "Regulon Overrepresentation Test" corresponde al análisis de sobrerepresentación del regulón de cada TMR (se usó la lista de todos los blancos detectados con corto) usando:
 
 Analysis Type: PANTHER Overrepresentation Test (Released 20190711)
-Annotation Version and Release Date: GO Ontology database Released 2019-12-09
+Annotation Version and Release Date: GO Ontology database Released 2019-12-09 (GO Biological Process complete)
 Reference List: Arabidopsis thaliana (all genes in database).
+Cita: 10.1038/s41596-019-0128-8
 
+Algunos regulones no enriquecieron ningún proceso biológico, esto puede ser porque: a) Puede ser consecuencia de que se carece de información de muchos de los genes blanco, b) También puede ser que la lista de genes blanco no tiene sentido (combina muchos genes de distintos procesos biológicos). Pero esto me parece poco probable ya que los genes que estamos obteniendo tienen el sentido biológico que esperábamos. 
 
 #### [**ATHB7 (AT2G46680.1)**](https://www.arabidopsis.org/servlets/TairObject?type=locus&name=AT2G46680)
 Other names: ARABIDOPSIS THALIANA HOMEOBOX 7, ATHB-7, ATHB7, HB-7, HOMEOBOX 7
