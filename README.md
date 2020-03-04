@@ -32,6 +32,7 @@ Other names: ARABIDOPSIS THALIANA HOMEOBOX 7, ATHB-7, ATHB7, HB-7, HOMEOBOX 7
 >Encodes a putative transcription factor that contains a homeodomain closely linked to a leucine zipper motif. Transcript is detected in all tissues examined. Is transcriptionally regulated in an ABA-dependent manner and may act in a signal transduction pathway which mediates a drought response.
 
 ![Drougth Stress AT2G46680.1](figures/AT2G46680.1.png)
+![Regulon Overrepresentation Test AT2G46680.1](figures/OT_AT2G46680.1.png)
 
 [**AT3G24520.1**](https://www.arabidopsis.org/servlets/TairObject?id=38672&type=locus)
 Other names: AT-HSFC1, HEAT SHOCK TRANSCRIPTION FACTOR C1, HSFC1
