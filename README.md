@@ -1,8 +1,8 @@
-## Arabidopsis_TMR
-#Transcriptional Master Regulators of mild drought in growing Arabidopsis leaves
+## Arabidopsis TMR
+# Transcriptional Master Regulators of mild drought in growing Arabidopsis leaves
 
 
-El conjunto original de datos se encuentra ebi.ac.uk. Corresponden a expresión celular de mismo componente de la hoja (mismo tejido) de plantas de _A. thaliana_ de diferentes regiones del mundo. El artículo original es: 10.1105/tpc.16.00483
+El conjunto original de datos se encuentra en [ebi.ac.uk.](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-5009/) Corresponden a expresión celular de mismo componente de la hoja (mismo tejido) de plantas de _A. thaliana_ de diferentes regiones del mundo. El artículo original es: 10.1105/tpc.16.00483
 
 La lista de TF fue obtenida de "Plant Transcription Factor Database" (planttfdb.cbi.pku.edu.cn).
 
