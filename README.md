@@ -12,18 +12,18 @@ corto (Correlation Tool) es un paquete de R par generar redes de regulación gen
 
 Los primero TFs mejor ranqueados de corto fueron:
 
-|   Regulon   |  NES  |  p.value |
-|-------------|-------|----------|
-| AT2G46680.1 | 6.23  | 4.74e-10 |
-| AT3G24520.1 | 5.26  | 1.46e-07 |
-| AT3G50650.1 | 4.86  | 1.19e-06 |
-| AT1G22190.1 | 4.49  | 7.21e−06 |
-| AT2G19810.1 | 4.46  | 8.07e−06 | 
-| AT5G03680.1 | 4.2   | 2.65e−05 |
-| AT5G47640.1 | 4.12  | 3.77e−05 |
-| AT3G61890.1 | 4.11  | 3.9e−05  |
-| AT3G19360.1 | −3.92 | 8.98e−05 |
-| AT2G27050.1 | 3.76  | 0.000169 |
+|   Regulon   |   TF name  |  NES  |  p.value |
+|-------------|------------|-------|----------|
+| AT2G46680.1 |    ATHB7   | 6.23  | 4.74e-10 |
+| AT3G24520.1 |    HSFC1   | 5.26  | 1.46e-07 |
+| AT3G50650.1 |            | 4.86  | 1.19e-06 |
+| AT1G22190.1 |   RAP2.4   | 4.49  | 7.21e−06 |
+| AT2G19810.1 |   ATOZF1   | 4.46  | 8.07e−06 |
+| AT5G03680.1 | PETAL LOSS | 4.2   | 2.65e−05 |
+| AT5G47640.1 |   NF-YB2   | 4.12  | 3.77e−05 |
+| AT3G61890.1 |   ATHB12   | 4.11  | 3.9e−05  |
+| AT3G19360.1 |            | −3.92 | 8.98e−05 |
+| AT2G27050.1 |    EIL1    | 3.76  | 0.000169 |
 
 ### Información de los TMRs
 
